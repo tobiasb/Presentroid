@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<EditTextPreference
+	android:key="targetIP"
+	android:title="@string/targetip_title"
+	android:summary="@string/targetip_summary"
+	android:defaultValue="192.168.1.100" />
+<EditTextPreference
+	android:key="targetPort"
+	android:title="@string/targetPort_title"
+	android:summary="@string/targetPort_summary"
+	android:defaultValue="4711" />
+<EditTextPreference
+	android:key="localPort"
+	android:title="@string/localPort_title"
+	android:summary="@string/localPort_summary"
+	android:defaultValue="4715" />
+</PreferenceScreen>

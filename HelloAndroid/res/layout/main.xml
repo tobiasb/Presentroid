@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+   	<TableLayout 
+   		android:id="@+id/TableLayout01" 
+   		android:layout_width="wrap_content" 
+   		android:layout_height="wrap_content">
+  
+	   	<TableRow 
+		   	android:id="@+id/TableRow01" 
+		   	android:layout_width="wrap_content" 
+		   	android:layout_height="wrap_content">
+		   	<Button android:id="@+id/prev_button" android:text="@string/prev_button_text" android:layout_width="150px" android:layout_height="wrap_content" /><Button
+		   		android:id="@+id/next_button"
+		   		android:text="@string/next_button_text"
+		   		android:layout_width="150px"
+		   		android:layout_height="wrap_content" />
+		   	
+   		<Button android:text="@+id/Button01" android:id="@+id/Button01" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+</TableRow>
+   	</TableLayout>
+   	
+   	<Button
+   		android:id="@+id/exit_button"
+   		android:text="@string/exit_button_text"
+   		android:layout_width="fill_parent"
+   		android:layout_height="wrap_content" />
+   		
+    <ImageView android:id="@+id/ImageView01" android:layout_width="200px" android:layout_height="200px"></ImageView>
+	<ScrollView
+		android:id="@+id/ScrollView01"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent">
+	<TextView  
+	 	android:id="@+id/text"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    />
+</ScrollView>
+
+
+</LinearLayout>

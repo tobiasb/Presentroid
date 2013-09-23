@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+<string name="app_name">Presendroid</string>
+<string name="next_button_text">Next</string>
+<string name="prev_button_text">Previous</string>
+<string name="exit_button_text">Close</string>
+<string name="targetip_title">Target IP</string>
+<string name="targetip_summary">The IP address of the machine running PowerPoint</string>
+<string name="targetPort_title">Target Port</string>
+<string name="targetPort_summary">The Port number of the machine running PowerPoint</string>
+<string name="localPort_title">Local Port</string>
+<string name="localPort_summary">The Locally used UDP-Port</string>
+<string name="settings_title">Settings</string>
+</resources>
